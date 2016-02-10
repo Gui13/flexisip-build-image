@@ -24,6 +24,7 @@ RUN apt-get -y install alien \
 						protobuf-compiler \
 						python \
 						rpm \
+						sudo \
 						unixodbc-dev \
 						wget
 
