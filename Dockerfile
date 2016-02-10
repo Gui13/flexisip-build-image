@@ -29,4 +29,4 @@ RUN apt-get -y install alien \
 						wget
 
 #debian doesn't ship with the %cmake macro of rpmbuild.
-COPY .rpmmacros ~
+ADD .rpmmacros /root/.rpmmacros
