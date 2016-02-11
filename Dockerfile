@@ -30,3 +30,4 @@ RUN apt-get -y install alien \
 
 #debian doesn't ship with the %cmake macro of rpmbuild.
 ADD .rpmmacros /root/.rpmmacros
+ADD build_flexisip.sh /root
